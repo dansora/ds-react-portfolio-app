@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import LandingPage from "./pages/LandingPage";
-import RestaurantsGallery from "./pages/ReastaurantsGallery";
+import ProjectsGallery from "./pages/ProjectsGallery";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <div className="d-flex min-vh-100 w-full justify-content-center align-items-center">
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/restaurants" element={<RestaurantsGallery />} />
+          <Route path="/restaurants" element={<ProjectsGallery />} />
         </Routes>
       </div>
     </Router>

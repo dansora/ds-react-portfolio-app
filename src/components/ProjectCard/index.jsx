@@ -1,4 +1,4 @@
-const RestCard = (props) => {
+const ProjectCard = (props) => {
   // check how your props object looks like
   console.log(props);
 
@@ -16,4 +16,5 @@ const RestCard = (props) => {
   );
 };
 
-export default RestCard;
+export default ProjectCard;
+

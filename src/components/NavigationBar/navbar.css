@@ -1,0 +1,20 @@
+.nav-item {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav.navbar {
+    background-color: #67bae4 !important;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.nav-link-hover:hover {
+    /* Add your desired hover styles here */
+    color: blue; /* Example: Change text color to blue */
+    text-decoration: underline !important; /* Optional: Add underline on hover */
+  }
+  

@@ -1,14 +1,14 @@
 import axios from "axios";
 import { useState } from "react";
-import RestCard from "../../components/RestCard";
+import ProjectCard from "../../components/ProjectCard";
 
-const RestaurantsGallery = () => {
+const ProjectsGallery = () => {
   const [responseData, setResponseData] = useState({
     isDataAvailable: false,
     results: [],
   });
 
-  const getRestaurantsData = () => {
+  const getProjectsData = () => {
     // axios request to get random data api restaurants
     axios
       .get(
@@ -26,10 +26,10 @@ const RestaurantsGallery = () => {
 
   return (
     <div>
-      <div>Search For Restaurants</div>
+      <div>Find my projects</div>
       {/* conditionally rendering the search button */}
       {!responseData.isDataAvailable && (
-        <button onClick={getRestaurantsData}>Search</button>
+        <button onClick={getProjectsData}>Find</button>
       )}
 
       {/* conditionally rendering the Restaurant Cards */}
@@ -38,7 +38,7 @@ const RestaurantsGallery = () => {
           {responseData.results.map((restaurant) => {
             return (
               <>
-                <RestCard
+                <ProjectCard
                   key={restaurant.id}
                   restName={restaurant.name}
                   restPhoneNo={restaurant.phone_number}
@@ -53,4 +53,4 @@ const RestaurantsGallery = () => {
   );
 };
 
-export default RestaurantsGallery;
+export default ProjectsGallery;

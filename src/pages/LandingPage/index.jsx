@@ -3,8 +3,8 @@ const LandingPage = () => {
     <div>
       <h1>Welcome</h1>
       <div>
-        Welcome to the restaurants app. Please go to the restaurants page to get
-        a random selection of restaurants{" "}
+        <p>Welcome to my portfolio app.</p> 
+        Please go to the portfolio page to see a selection of my projects{" "}
       </div>
     </div>
   );

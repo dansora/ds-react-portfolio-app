@@ -28,7 +28,7 @@ const NavigationBar = () => {
               <NavLink to="/restaurants" style ={ {textDecoration: 'none'} } className="nav-link-hover">Projects</NavLink>
             </li>
             <li className="nav-item nav-link-hover mx-2">
-              <NavLink to="/restaurants" style ={ {textDecoration: 'none'} } className="nav-link-hover">Contact</NavLink>
+              <NavLink to="/" style ={ {textDecoration: 'none'} } className="nav-link-hover">Contact</NavLink>
             </li>
           </ul>
           <form className="d-flex" role="search" id="formBox">

@@ -3,6 +3,7 @@ import "./App.css";
 import NavigationBar from "./components/NavigationBar";
 import LandingPage from "./pages/LandingPage";
 import ProjectsGallery from "./pages/ProjectsGallery";
+import ContactPage from "./pages/ContactPage";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/restaurants" element={<ProjectsGallery />} />
+          <Route path="/" element={<ContactPage />} />
         </Routes>
       </div>
     </Router>

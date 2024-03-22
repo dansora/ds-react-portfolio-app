@@ -6,6 +6,9 @@ const ContactPage = () => {
           <p>Welcome to my portfolio app.</p> 
           Please contact me for new projects{" "}
         </div>
+        <section className="social-links ">
+
+        </section>
       </div>
     );
   };

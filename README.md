@@ -26,7 +26,7 @@ This project uses a MIT license.
 ## Useful Links
 
 The app can be found on github at this url: [GitHub-repo](https://github.com/dansora/ds-react-portfolio-app)
-The app is also deployed live at this link: [DanS-React-Portfolio]()
+The app is also deployed live at this link: [DanS-React-Portfolio](https://dansora.github.io/ds-react-portfolio-app/)
 
 ## Contact
 

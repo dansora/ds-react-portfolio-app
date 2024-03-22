@@ -1,15 +1,18 @@
-.nav-item {
-    text-decoration: none;
-    font-weight: 600;
-}
-
 nav.navbar {
     background-color: #67bae4 !important;
+    position: sticky;
 }
 
 .navbar-brand {
-    font-weight: 900;
+    color: whitesmoke !important;
+    font-weight: 700;
     font-size: 2rem;
+}
+
+.nav-item {
+    color: whitesmoke !important;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .nav-link-hover:hover {
@@ -17,4 +20,11 @@ nav.navbar {
     color: blue; /* Example: Change text color to blue */
     text-decoration: underline !important; /* Optional: Add underline on hover */
   }
+
+  .btn {
+    color: whitesmoke !important;
+  }
   
+  .btn-outline-success {
+    border: none !important;
+  }

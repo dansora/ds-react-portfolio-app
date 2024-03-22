@@ -13,7 +13,7 @@ const NavigationBar = () => {
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
-          aria-controls="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -22,10 +22,13 @@ const NavigationBar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li className="nav-item nav-link-hover mx-2">
-              <NavLink to="/" style ={ {textDecoration: 'none'} }>Home</NavLink>
+              <NavLink to="/" style ={ {textDecoration: 'none'} } className="nav-link-hover">Home</NavLink>
             </li>
             <li className="nav-item nav-link-hover mx-2">
-              <NavLink to="/restaurants" style ={ {textDecoration: 'none'} }>Projects</NavLink>
+              <NavLink to="/restaurants" style ={ {textDecoration: 'none'} } className="nav-link-hover">Projects</NavLink>
+            </li>
+            <li className="nav-item nav-link-hover mx-2">
+              <NavLink to="/restaurants" style ={ {textDecoration: 'none'} } className="nav-link-hover">Contact</NavLink>
             </li>
           </ul>
           <form className="d-flex" role="search" id="formBox">

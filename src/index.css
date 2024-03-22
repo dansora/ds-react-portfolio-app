@@ -8,5 +8,7 @@ body {
     color: whitesmoke !important;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-    background-image:url(./assets/background1.png)
+    background-image:url(./assets/background1.png);
+    background-position: center;
+    background-size: cover;
 }
